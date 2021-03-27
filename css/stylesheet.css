@@ -122,3 +122,60 @@ a {
   display: inline-block;
   line-break: normal;
 }
+
+
+/* Main Wrapper */
+
+
+.container-md{
+  max-width: 1200px;
+  width: 100%;   
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-wrapper{
+  padding-top: 180px;
+}
+
+.main{
+  float: right;
+  padding: 30px 30px;
+}
+
+.main-title h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main-content{
+  float: left;
+  padding: 0 30px;
+  margin-top: 120px;
+  width: 25%;
+  cursor: pointer;
+}
+
+.main-content:hover{
+  box-shadow: 0 10px 30px #cfcfcf ;
+}
+
+.main-content img{
+  width: 240px;
+  
+}
+
+.rating{
+  padding-top: 30px;
+  color: orange;
+}
+
+
+.text-content h2{
+  font-size: 24px;
+
+}
+
+.text-content p{
+  font-size: 18px;
+}
