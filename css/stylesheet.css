@@ -1,4 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: "Open Sans";
+  font-family: "Barlow Condensed";
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contents {
+  background-image: url("https://images.unsplash.com/photo-1506544777-64cfbe1142df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+  padding: 50px;
+  position: relative;
+}
+
+.content-name h1 {
+  font-size: 60px;
+  line-height: 20px;
+}
+
+.content-name h2 {
+  color: silver;
+  font-size: 30px;
+  line-height: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-size {
+  margin-top: 100px;
+}
+
+.size {
+  background-color: white;
+  opacity: 0.5;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.size:hover,
+.size:active {
+  opacity: 0.8;
+}
+
+.cart {
+  line-height: 80px;
+  background-color: black;
+  color: silver;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.cart:hover {
+  background-color: silver;
+  color: black;
+}
+
+.products {
+  padding: 50px;
+}
+
+.detail {
+  float: right;
+  width: 30%;
+  margin: 15px;
+}
+
+.detail p {
+  color: rgb(80, 80, 80);
+  line-height: 30px;
+}
+
+.detail table tr td {
+  padding: 7px;
+  border-bottom: solid 1px gray;
+}
+
+.round {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 2px 5px;
+}
+
+.color {
+  background-color: aqua;
+}
+
+.target {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0;
+  border: solid aqua 1px;
+}
+
+.fa-star {
+  color: gray;
+}
+
+.checked {
+  color: yellow;
+}
+
+.score {
+  white-space: nowrap;
+}
+
+.text {
+  display: inline-block;
+  line-break: normal;
 }
