@@ -67,13 +67,15 @@ a {
 }
 
 .products {
-  padding: 50px;
+  width: 100%;
+  margin: 50px auto;
 }
 
-.detail {
+.detail{
   float: right;
-  width: 30%;
-  margin: 15px;
+  padding: 0 30px;
+  margin-top: 80px;
+  width: 33.33%;
 }
 
 .detail p {
@@ -122,25 +124,21 @@ a {
   display: inline-block;
   line-break: normal;
 }
+.clear {
+  clear: both;
+}
 
 
 /* Main Wrapper */
 
-
-.container-md{
-  max-width: 1200px;
-  width: 100%;   
-  margin: 0 auto;
-  padding: 0;
-}
-
 .main-wrapper{
-  padding-top: 180px;
+  width: 100%;
+  margin: 50px auto;
 }
 
 .main{
-  float: right;
-  padding: 30px 30px;
+  /* float: right; */
+  padding: 50px;
 }
 
 .main-title h1{

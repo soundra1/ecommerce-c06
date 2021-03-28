@@ -1,4 +1,4 @@
-@media(min-width:768px) and (max-width:1000px){ 
+@media all and (max-width:1000px){ 
     .main-content{
         width: 50%;
         padding: 30px 70px;
@@ -8,17 +8,34 @@
         padding: 0 70px;
         font-size: 21px;
     }
- 
- 
+
     .text-content h2{
          font-size: 24px;
     }
  
+    .round {
+        margin: 2px 3px;
+    }
  
  }
  
- @media(min-width: 320px) and (max-width: 760px){
-     
+ @media all and (max-width: 760px){
+    .content-name h1 {
+      font-size: 55px;
+    }
+    
+    .content-name h2 {
+      font-size: 20px;
+    }
+
+    .round {
+        margin: 2px 5px;
+    }
+
+    .detail {
+        width: 100%;
+    } 
+
      .main-title{
          text-align: center;
      }
